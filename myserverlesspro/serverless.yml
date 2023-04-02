@@ -23,7 +23,7 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs12.x
-  profile: AWS-USER
+  profile: ------------->create a profile with IAM user and with the command named--> aws configure --profile AWS-USER->this results you the access key and secret key of the user #dont foreget to give Administratior acceess to the USer
   region : us-east-1
   iam:
     role:
